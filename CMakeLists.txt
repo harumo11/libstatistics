@@ -8,7 +8,7 @@ set(SRC_DIR src)
 set(INCLUDE_DIR ./include/statistics)
 include_directories(${INCLUDE_DIR})
 
-add_library(statistics STATIC statistics.cpp)
+add_library(statistics STATIC ${SRC_DIR}/statistics.cpp)
 
 install(TARGETS statistics 
 	RUNTIME DESTINATION bin
