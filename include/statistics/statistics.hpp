@@ -21,7 +21,7 @@ namespace libstatistics {
 			double getMediam();
 			void reset();
 			void add(double new_data);
-			void add(std::vector<double> &new_vector_data);
+			void add(std::vector<double> new_vector_data);
 
 		private:
 			double sum;

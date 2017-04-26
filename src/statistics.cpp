@@ -162,7 +162,7 @@ void libstatistics::accumulator::add(double new_data){
  *
  * @param new_vector_data Data(vector) to be added.
  */
-void libstatistics::accumulator::add(std::vector<double> &new_vector_data){
+void libstatistics::accumulator::add(std::vector<double> new_vector_data){
 	//Add new data to this->data of end.
-	this->data.emplace_back(new_vector_data);
+	this->data.insert(std::end(this->data), std::begin(new_vector_data), std::end(new_vector_data));
 }
