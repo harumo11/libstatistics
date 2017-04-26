@@ -1,7 +1,0 @@
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/install.dir
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/list_install_components.dir
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/rebuild_cache.dir
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/statistics.dir
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/edit_cache.dir
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/install/strip.dir
-/home/harumo/program/foundation/libstatistics/build/CMakeFiles/install/local.dir
